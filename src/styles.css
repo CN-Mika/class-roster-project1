@@ -1,14 +1,24 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-}
-.studentRow {
-  color: blue;
-  display: flex;
+  background: #210852;
+  background-size: 400%;
 }
 
-.studentData {
+h1 {
+  color: white;
+  padding: 20px;
+}
+
+.row {
+  color: cyan;
+  display: flex;
+  justify-content: center;
+}
+
+.data {
   width: 200px;
+  padding-bottom: 20px;
 }
 
 .name {
@@ -16,5 +26,5 @@
 }
 
 .highschool {
-  color: black;
+  color: #f3b778;
 }
